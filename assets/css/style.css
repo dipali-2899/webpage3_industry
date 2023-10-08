@@ -3,6 +3,7 @@
     padding:0px;
     box-sizing: border-box;
 }
+/* Header Section Start */
 header{
     width:100vw;
     height:50px;
@@ -13,6 +14,8 @@ header{
     align-items: center;
     background:#022B76 ;
 }
+/* Header Section End */
+/* Banner Section Start */
 .banner{
     width:100%;
     height:600px;
@@ -50,3 +53,99 @@ header{
 .banner aside button{
     background:#00FFFF ;
 }
+/* Banner Section End */
+/* feature section start */
+.feature{
+    width:100%;
+    height:auto;
+    display: flex;
+    color:#022B76;
+    padding: 60px 100px;
+    justify-content: space-between;
+}
+.feature div{
+    width:30%;
+    height:400px;
+}
+.feature div h2{
+    font-size:40px ;
+    margin-bottom:7px ;
+}
+.feature div img{
+    width:400px;
+    height:250px;
+}
+.feature div p{
+    margin-top: 5px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* feature section end */
+/* About Us Section Start */
+  .about{
+    width:100%;
+    height:auto;
+    color:#fff;
+    text-align: center;
+    padding:60px 300px;
+    background:#022B76 ;
+  }
+  .about h2{
+    font-size:33px ;
+    margin-bottom:7px ;
+  }
+  .about p{
+    font-size:18px ;
+    font-weight:normal;
+  }
+  .about button{
+    margin-top: 25px;
+    color:#fff;
+    font-weight:bold ;
+    padding:15px 125px ;
+    background:#022B76 ;
+    border:2px solid #fff ;
+    border-radius:4px ;
+
+  }
+/* About Us Section End */
+/* Service Section Start */
+.service{
+    width:100%;
+    height:auto;
+    padding:0px 100px;
+}
+.service .content{
+    padding:0px 60px;
+}
+.service .content h3{
+    font-size:30px ;
+}
+.service .content p{
+    font-size:18px;
+    font-weight:normal ;
+}
+.service .upper, .service .lower{
+    display: flex;
+    align-items: center;
+}
+.service .image, .service .content{
+    width:50%;
+
+}
+.service .image img{
+    width:660px;
+    height: 600px; 
+}
+/* Service Section End */
+/* Footer Section Start */
+ footer{
+    width:100%;
+    height:auto;
+    color:#fff;
+    text-align: center;
+    padding:25px 100px;
+    background:#022B76 ;
+ }
+/* Footer Section End */
